@@ -1,0 +1,102 @@
+.nav-container{
+    position: fixed;
+    height: 8vh;
+    background-color: #a0d8ef;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+    width: 100%;
+    top:0;
+    left:0;
+}
+
+.nav-left{
+left: 0;
+padding-left: 1.8rem;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.shift{
+margin-left: 3vw;
+}
+
+.nav-left h2{
+margin-left: -0.8rem;
+color:#262c2e;
+}
+
+.nav-left h2:hover{
+color:#8d8f90;
+cursor: pointer;
+}
+
+.image5{
+width: 5vw;
+}
+
+.nav-right{
+right: 0;
+padding-right: 3rem;
+display: flex;
+justify-content: center;
+}
+
+ul {
+list-style-type: none; 
+padding: 0; 
+margin: 0;
+display: flex;
+}
+
+li {
+margin-right: 25px; 
+color: #373b3d;
+font-size: large;
+}
+
+li:hover{
+color:#8d8f90;
+cursor: pointer;
+}
+
+h2{
+color: black;
+}
+
+select{
+background-color: rgb(173, 175, 178);
+font-size: medium;
+}
+
+button{
+background-color: #264859;
+color: #fff;
+border:none;
+height: 5vh;
+width: 7vw;
+border-radius:25px;
+font-size: 1.1rem;
+}
+
+.signup1{
+background-color: rgb(252, 251, 250);
+color: #373b3d;
+}
+
+.signup1:hover{
+background-color: #264859;
+color: white;
+cursor: pointer;
+}
+
+.login1:hover{
+background-color: white;
+color: #373b3d;
+cursor: pointer;
+}
+
