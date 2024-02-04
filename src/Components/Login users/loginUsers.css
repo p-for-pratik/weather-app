@@ -1,0 +1,119 @@
+.AllUsersContainer{
+    /* position: relative; */
+    /* top: 10%; */
+    overflow: hidden;
+    /* display: flex; */
+    width: 100%;
+    /* height: 30em; */
+    margin-top: 5%;
+    /* overflow-y: hidden; */
+    flex-direction: column;
+    /* min-height: 73vh; */
+  /* border: 2px solid red; */
+  height: 100vh;
+
+}
+.leftDiv {
+    float: left;
+    width: 20%;
+    height: 13em;
+    margin-left: 4%;
+    border: 2px solid #525559; 
+    /* background-color: azure; */
+    height: 26vh;
+    border-radius: 21px;
+  border: 2px solid rgb(59, 57, 57);
+  margin-top: 130px;
+  background-color: rgb(90, 85, 85);
+  opacity: 0.8;
+  /* padding-top: 70px; */
+
+  }
+
+  .usernameInput{
+    height: 30px;
+  }
+
+  .leftBtn{
+    width: 15vw;
+  }
+  
+  .RightDiv {
+    text-align: center;
+    background-color: rgb(90, 85, 85);
+    align-items: center;
+    width: 65%;
+    float: right;
+    margin-top: 3%;
+    display: flex;
+  /* border: 2px solid blue; */
+  display: flex;
+  justify-content: space-around;
+  margin-right: 5%;
+
+  }
+  .tables{
+    /* margin-left: 25%; */
+    text-align: left;
+    /* background-color: aqua; */
+  /* border: 2px solid green; */
+
+  }
+
+  
+  .tables {
+    border-collapse: separate;
+    border-spacing: 0px; /* Adjust the spacing as needed */
+  /* border: 2px solid red; */
+
+}
+
+.tables th,
+.tables td {
+    padding: 13px; /* Add padding for each cell */
+    /* border: 1px solid #ccc;  */
+  /* border: 2px solid red; */
+    
+}
+
+  .Loginusersfooter
+  {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+  /* border: 2px solid red; */
+
+  }
+
+  .filterDate{
+    display: flex;
+    /* border: 2px solid red; */
+    justify-content: space-between;
+    width: 20vw;
+    margin: 5px 0;
+  }
+
+  /* .filterhead{
+    height: 30px;
+  } */
+
+  .filterbtn{
+    width: 10vw;
+    border-radius: 2px;
+  }
+
+  .leftOfRightdiv{
+float: left;
+/* border-radius: 21px; */
+/* border: 2px solid #333435;  */
+/* border: 2px solid red; */
+
+  }
+  .rightOfRightdiv{
+    display: flex;
+float: right;
+height: 30vh;
+/* border: 2px solid pink; */
+width: 20vw;
+
+  }

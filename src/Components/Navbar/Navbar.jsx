@@ -1,10 +1,16 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './navbar.css';
 import { Link } from 'react-router-dom';
 import SignOut from '../SignOut/SignOut';
 
-const Navbar = (props) => {
 
+const Navbar = (props) => {
+  // const history = useHistory();
+  const [isLoginUsersClicked, setIsLoginUsersClicked] = useState(false);
+
+  const handleLoginUsersClick = () => {
+    setIsLoginUsersClicked((prev) => !prev);
+  };
   return (
     <>
       <div className='nav-container'>
@@ -20,9 +26,24 @@ const Navbar = (props) => {
           <ul>
             {props.name ? (
               <>
-              <li>
-                <SignOut/>
-              </li>
+                <li>
+                  <SignOut />
+                </li>
+
+                <li>
+                <Link onClick={handleLoginUsersClick}  to={isLoginUsersClicked ? '/' : '/loginusers'} >
+          <button className='loginUsers'>
+            {isLoginUsersClicked ? 'Home' : 'Login users'}
+          </button>
+        </Link>
+      </li>
+
+
+
+
+
+
+
               </>
             ) : (
               <>
